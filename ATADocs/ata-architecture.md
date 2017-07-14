@@ -154,7 +154,7 @@ The following table provides an example of a domain controller with enough compu
 ||||||
 |-|-|-|-|-|
 |Active Directory (Lsass.exe)|ATA Lightweight Gateway (Microsoft.Tri.Gateway.exe)|Miscellaneous (other processes) |ATA Lightweight Gateway Quota|Gateway dropping|
-|30%|20%|10%|45%|No|
+|30%|20%|10%|40%|No|
 
 If Active Directory needs more compute, the quota needed by the ATA Lightweight Gateway is reduced. In the following example, The ATA Lightweight Gateway needs more than the allocated quota and drops some of the traffic (monitoring only partial traffic):
 
